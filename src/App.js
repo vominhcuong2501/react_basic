@@ -15,16 +15,16 @@ import BaiTapPhim from './Components/Props/BaiTapPhim/BaiTapPhim';
 function App() {
   return (
     <div className="App">
-      {/* <SinhVien /> */}
-      {/* <Event /> */}
-      {/* <DemoIf /> */}
-      {/* <BaiTapState /> */}
-      {/* <DemoVongLap /> */}
-      {/* <BaiTapVongLap /> */}
-      {/* <DemoProps/> */}
-      {/* <BaiTapCar /> */}
-      {/* <BaiTapTruyenFunction /> */}
-      {/* <BaiTapGioHang /> */}
+      <SinhVien />
+      <Event />
+      <DemoIf />
+      <BaiTapState />
+      <DemoVongLap />
+      <BaiTapVongLap />
+      <DemoProps/>
+      <BaiTapCar />
+      <BaiTapTruyenFunction />
+      <BaiTapGioHang />
       <BaiTapPhim />
     </div>
   );
