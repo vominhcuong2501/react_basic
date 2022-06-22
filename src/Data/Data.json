@@ -1,0 +1,32 @@
+[
+  {
+    "ten": "Đấu phá thương khung",
+    "hinhAnh": "https://meta.vn/Data/image/2021/11/01/lich-chieu-dau-pha-khung-thuong-ova-3.jpg",
+    "moTa": "chi tiết",
+    "loai": "Hoạt hình",
+    "id": "1",
+    "nam": 2019,
+    "quocGia": "Japan",
+    "nhanVat": "Tiêu Viêm, Vân Chi, Mỹ Đỗ Toa..."
+  },
+  {
+    "ten": "Pokemon",
+    "hinhAnh": "https://gamek.mediacdn.vn/133514250583805952/2020/5/16/https-2f2fs3-ap-southeast-2amazonawscom2fvms-tv-images-prod2f20172f102f1013172fpokepokemon1920-158964792996424270108.jpg",
+    "moTa": "chi tiết",
+    "loai": "Hoạt hình",
+    "id": "2",
+    "nam": 2020,
+    "quocGia": "American",
+    "nhanVat": "Satoshi, Pikachu..."
+  },
+  {
+    "ten": "Naruto",
+    "hinhAnh": "https://gamek.mediacdn.vn/133514250583805952/2020/2/26/photo-1-15827070847125071669.jpeg",
+    "moTa": "chi tiết",
+    "loai": "Hoạt hình",
+    "id": "3",
+    "nam": 2021,
+    "quocGia": "England",
+    "nhanVat": "Naruto, Sasuke, Sakura, Kakashi..."
+  }
+]
