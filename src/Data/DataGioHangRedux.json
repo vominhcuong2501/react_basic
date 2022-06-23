@@ -1,0 +1,29 @@
+[
+  {
+    "ten": "Đồng hồ bạc",
+    "hinhAnh": "./image/donghobac.jpg",
+    "moTa": "chi tiết",
+    "loai": "Rolex",
+    "maSP": "1",
+    "quocGia": "Thụy Điển",
+    "gia": 3000
+  },
+  {
+    "ten": "Đồng hồ kim cương",
+    "hinhAnh": "./image/donghotrang.jpg",
+    "moTa": "chi tiết",
+    "loai": "Casio",
+    "maSP": "2",
+    "quocGia": "Japan",
+    "gia": 5000
+  },
+  {
+    "ten": "Đồng hồ vàng",
+    "hinhAnh": "./image/donghovang.jpg",
+    "moTa": "chi tiết",
+    "loai": "SJC 9999",
+    "maSP": "3",
+    "quocGia": "Việt Nam",
+    "gia": 3500
+  }
+]

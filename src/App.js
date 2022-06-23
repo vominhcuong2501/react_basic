@@ -11,21 +11,23 @@ import BaiTapCar from './Components/BaiTapCar/BaiTapCar';
 import BaiTapTruyenFunction from './Components/Props/BaiTapTruyenFunction/BaiTapTruyenFunction';
 import BaiTapGioHang from './Components/Props/BaiTapGioHang/BaiTapGioHang';
 import BaiTapPhim from './Components/Props/BaiTapPhim/BaiTapPhim';
+import BTGioHangRedux from './Components/BaiTapRedux/BaiTapGioHang/BTGioHangRedux';
 
 function App() {
   return (
     <div className="App">
-      <SinhVien />
-      <Event />
-      <DemoIf />
-      <BaiTapState />
-      <DemoVongLap />
-      <BaiTapVongLap />
-      <DemoProps/>
-      <BaiTapCar />
-      <BaiTapTruyenFunction />
-      <BaiTapGioHang />
-      <BaiTapPhim />
+      {/* <SinhVien /> */}
+      {/* <Event /> */}
+      {/* <DemoIf /> */}
+      {/* <BaiTapState /> */}
+      {/* <DemoVongLap /> */}
+      {/* <BaiTapVongLap /> */}
+      {/* <DemoProps/> */}
+      {/* <BaiTapCar /> */}
+      {/* <BaiTapTruyenFunction /> */}
+      {/* <BaiTapGioHang /> */}
+      {/* <BaiTapPhim /> */}
+      <BTGioHangRedux />
     </div>
   );
 }
