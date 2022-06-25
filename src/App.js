@@ -29,8 +29,8 @@ function App() {
       {/* <BaiTapTruyenFunction /> */}
       {/* <BaiTapGioHang /> */}
       {/* <BaiTapPhim /> */}
-      {/* <BTGioHangRedux /> */}
-      {/* <BaiTapGiay /> */}
+      <BTGioHangRedux />
+      <BaiTapGiay />
       <BaiTapBurger />
     </div>
   );
