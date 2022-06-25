@@ -12,10 +12,11 @@ import BaiTapTruyenFunction from './Components/Props/BaiTapTruyenFunction/BaiTap
 import BaiTapGioHang from './Components/Props/BaiTapGioHang/BaiTapGioHang';
 import BaiTapPhim from './Components/Props/BaiTapPhim/BaiTapPhim';
 import BTGioHangRedux from './Components/BaiTapRedux/BaiTapGioHang/BTGioHangRedux';
+import BaiTapGiay from './Components/BaiTapRedux/BaiTapGiay/BaiTapGiayRedux';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App conatiner">
       {/* <SinhVien /> */}
       {/* <Event /> */}
       {/* <DemoIf /> */}
@@ -27,7 +28,8 @@ function App() {
       {/* <BaiTapTruyenFunction /> */}
       {/* <BaiTapGioHang /> */}
       {/* <BaiTapPhim /> */}
-      <BTGioHangRedux />
+      {/* <BTGioHangRedux /> */}
+      <BaiTapGiay />
     </div>
   );
 }

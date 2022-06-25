@@ -63,7 +63,7 @@ class ModalGioHangRedux extends Component {
     )
   }
 }
-const mapStateToProps = (state) => { // state laf store tổng => truy xuất đến GioHangReducer => biến state trên GioHangReducer
+const mapStateToProps = (state) => { // state là store tổng => truy xuất đến GioHangReducer => biến state trên GioHangReducer
     return {
         gioHang: state.GioHangReducer.gioHang // tạo ra 1 props của component ModalGioHangRedux
     }
