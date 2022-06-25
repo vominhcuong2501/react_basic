@@ -12,10 +12,13 @@ import reportWebVitals from './reportWebVitals';
 import {Provider} from 'react-redux'
 import {createStore} from 'redux'
 // import { rootReducer } from './Redux/Reducer/rootReducer';
-import {rootGiayReducer} from './Redux/ReducerGiay/rootGiayReducer';
+// import {rootGiayReducer} from './Redux/ReducerGiay/rootGiayReducer';
+import { rootBurgerReducer } from './Redux/ReducerBurger/rootBurgerReducer';
 
 // const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
-const store = createStore(rootGiayReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+// const store = createStore(rootGiayReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+const store = createStore(rootBurgerReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -13,6 +13,7 @@ import BaiTapGioHang from './Components/Props/BaiTapGioHang/BaiTapGioHang';
 import BaiTapPhim from './Components/Props/BaiTapPhim/BaiTapPhim';
 import BTGioHangRedux from './Components/BaiTapRedux/BaiTapGioHang/BTGioHangRedux';
 import BaiTapGiay from './Components/BaiTapRedux/BaiTapGiay/BaiTapGiayRedux';
+import BaiTapBurger from './Components/BaiTapRedux/BaiTapBurger/BaiTapBurger';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <BaiTapGioHang /> */}
       {/* <BaiTapPhim /> */}
       {/* <BTGioHangRedux /> */}
-      <BaiTapGiay />
+      {/* <BaiTapGiay /> */}
+      <BaiTapBurger />
     </div>
   );
 }
