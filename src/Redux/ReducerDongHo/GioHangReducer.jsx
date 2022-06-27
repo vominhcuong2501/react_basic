@@ -17,6 +17,7 @@ export const GioHangReducer = (state=stateGioHang, action) => {
             state.gioHang = gioHangCapNhat;
             return {...state};
         };
+        break;
 
         case 'XOA_GIO_HANG_INDEX': {
             let gioHangCapNhat = [...state.gioHang];
@@ -26,6 +27,7 @@ export const GioHangReducer = (state=stateGioHang, action) => {
             state.gioHang = gioHangCapNhat;
             return {...state};
         };
+        break;
 
         case 'XOA_GIO_HANG_MASP': {
             let gioHangCapNhat = [...state.gioHang];
@@ -36,6 +38,7 @@ export const GioHangReducer = (state=stateGioHang, action) => {
             state.gioHang = gioHangCapNhat;
             return {...state};
         };
+        break;
 
         case 'TANG_GIAM_SL': {
             const {index, tangGiam} = action;
@@ -47,8 +50,11 @@ export const GioHangReducer = (state=stateGioHang, action) => {
             }
             state.gioHang = gioHangCapNhat;
             return {...state};
-        }
+        };
+        break;
 
+        default: {
+            return {...state}
+        }
     }
-    return {...state}
 }

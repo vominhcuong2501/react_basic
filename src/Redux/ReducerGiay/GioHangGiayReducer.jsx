@@ -14,14 +14,16 @@ export const GioHangGiayReducer = (state = stateGioHangGiay, action) => {
             }
             state.gioHang = gioHangCapNhat;
             return {...state}
-        };
+        }; 
+        break;
 
         case 'XOA_GIO_HANG': {
             let gioHangCapNhat = [...state.gioHang];
             gioHangCapNhat.splice(action.index,1);
             state.gioHang = gioHangCapNhat;
             return {...state}
-        };
+        }; 
+        break;
 
         case 'TANG_GIAM_SL':{
             let {index, tangGiam} = action;
@@ -33,7 +35,11 @@ export const GioHangGiayReducer = (state = stateGioHangGiay, action) => {
             }
             state.gioHang = gioHangCapNhat;
             return {...state}
+        };
+        break;
+        default: {
+            return {...state};
         }
     }
-    return {...state};
+
 }

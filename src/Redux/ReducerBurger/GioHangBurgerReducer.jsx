@@ -19,7 +19,9 @@ export const GioHangBurgerReducer = (state = burgerState, action) => {
             state.burger = burgerUpdate;
             state.total += action.amount * state.menu[action.propsBurger];
             return {...state}
+        }; break;
+        default: {
+            return {...state}
         }
     }
-    return {...state}
 }

@@ -5,12 +5,25 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
+
+
+
 // setup redux
 import {Provider} from 'react-redux'
 import {createStore} from 'redux'
-import { rootReducer } from './Redux/rootReducer';
+// import { rootReducer } from './Redux/ReducerDongHo/rootReducer';
+// import { rootGiayReducer } from './Redux/ReducerGiay/rootGiayReducer';
+// import { rootBurgerReducer } from './Redux/ReducerBurger/rootBurgerReducer';
+import { rootFormQLSV } from './Redux/ReducerFormQLSV/rootFormQLSV'
 
-const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+// const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+// const store = createStore(rootGiayReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+// const store = createStore(rootBurgerReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+const store = createStore(rootFormQLSV, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>

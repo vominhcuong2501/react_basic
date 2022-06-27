@@ -14,6 +14,7 @@ import BaiTapPhim from './Components/Props/BaiTapPhim/BaiTapPhim';
 import BTGioHangRedux from './Components/BaiTapRedux/BaiTapGioHang/BTGioHangRedux';
 import BaiTapGiay from './Components/BaiTapRedux/BaiTapGiay/BaiTapGiayRedux';
 import BaiTapBurger from './Components/BaiTapRedux/BaiTapBurger/BaiTapBurger';
+import BaiTapForm from './Components/BaiTapRedux/BaiTapForm/BaiTapForm';
 
 function App() {
   return (
@@ -29,9 +30,10 @@ function App() {
       {/* <BaiTapTruyenFunction /> */}
       {/* <BaiTapGioHang /> */}
       {/* <BaiTapPhim /> */}
-      <BTGioHangRedux />
-      <BaiTapGiay />
-      <BaiTapBurger />
+      {/* <BTGioHangRedux /> */}
+      {/* <BaiTapGiay /> */}
+      {/* <BaiTapBurger /> */}
+      <BaiTapForm />
     </div>
   );
 }
