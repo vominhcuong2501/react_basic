@@ -9,7 +9,8 @@ export const QuanLySinhVienReducer = (state = stateSinhVien, action) => {
             const mangSVUpdate = [...state.mangSinhVien, action.sinhVien];
             state.mangSinhVien = mangSVUpdate;
             return {... state};
-        };break;
+        };
+        break;
 
         default: {
             return {...state};
