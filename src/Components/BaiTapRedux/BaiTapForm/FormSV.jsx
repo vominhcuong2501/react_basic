@@ -27,7 +27,7 @@ class FormSV extends Component {
 
     // kiểm tra rỗng
     if (value.trim() === "") {
-      errorMessage = "(*) Mã sinh viên không được bỏ trống!"; //kiểm tra bất kỳ control input nào người dùng nhập đều kt trống
+      errorMessage = "(*) "+ name +" không được bỏ trống!"; //kiểm tra bất kỳ control input nào người dùng nhập đều kt trống
     }
 
     // kiểm tra email
@@ -127,7 +127,7 @@ class FormSV extends Component {
                   <span>Số điện thoại</span>
                   <input
                     className="form-control"
-                    type="number"
+                    type="text"
                     pattern="^[0-9]+$"
                     name="soDienThoai"
                     value={this.state.values.soDienThoai}
