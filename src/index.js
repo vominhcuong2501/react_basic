@@ -14,12 +14,16 @@ import {createStore} from 'redux'
 // import { rootReducer } from './Redux/ReducerDongHo/rootReducer';
 // import { rootGiayReducer } from './Redux/ReducerGiay/rootGiayReducer';
 // import { rootBurgerReducer } from './Redux/ReducerBurger/rootBurgerReducer';
-import { rootFormQLSV } from './Redux/ReducerFormQLSV/rootFormQLSV'
+// import { rootFormQLSV } from './Redux/ReducerFormQLSV/rootFormQLSV';
+import { rootXucXac } from './Redux/ReducerSucSac/rootXucXac';
+
 
 // const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 // const store = createStore(rootGiayReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 // const store = createStore(rootBurgerReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
-const store = createStore(rootFormQLSV, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+// const store = createStore(rootFormQLSV, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+const store = createStore(rootXucXac, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+
 
 
 
